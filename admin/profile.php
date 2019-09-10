@@ -2,6 +2,7 @@
     include "includes/admin_header.php" ;
 
     if($_SESSION['username']){
+
         $username = $_SESSION['username'];
         $query = "SELECT * FROM users WHERE username = '$username' ";
 
